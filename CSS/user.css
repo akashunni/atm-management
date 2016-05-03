@@ -1,0 +1,67 @@
+body{
+	
+}
+p{
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight:bold;
+	color:#F00;
+}
+#card_no{
+	background-image:url(../Images/card.png);
+	background-size:contain;
+	background-repeat:no-repeat;
+	background-position:right;
+	border-bottom:#000 2px solid;
+	border-right:none;
+	border-left:none;
+	border-top:none;
+	outline:none;
+	width:500px;
+	font-size:30px;
+	text-align:center;
+}
+#container{
+	margin-top:140px;
+}
+#div_pin{
+	visibility:hidden;
+	opacity:0;
+	transition: opacity 1s;
+	margin-top:100px;
+}
+
+#pin{
+	background-image:url(../Images/pin.png);
+	background-size:contain;
+	background-repeat:no-repeat;
+	background-position:right;
+	border-bottom:#000 2px solid;
+	border-right:none;
+	border-left:none;
+	border-top:none;
+	outline:none;
+	width:500px;
+	font-size:30px;
+	text-align:center;
+	
+}
+#button{
+	width:200px;
+	height:50px;
+	color:#FFF;
+	border-radius:5px;
+	outline:none;
+	background-color: #009688;
+	border:none;
+	font-size:20px;
+	margin-top:30px;
+	box-shadow:0px 0px 5px 1px #888888;
+	transition: box-shadow 0.3s;
+}
+#button:hover{
+	box-shadow:0px 0px 6px 3px #888888;
+	
+}
+
+
+
